@@ -65,7 +65,7 @@
         </style>
     </head>
    <body>
-   <a href="https://www.instagram.com/oauth/authorize/?client_id=cc8425bff673412aa4b13e01aa2b16d3&redirect_uri=http://127.0.0.1:8000/auth&response_type=code&scope=basic+public_content+follower_list+comments+relationships+likes">Click Here</a>
+   <a href="https://www.instagram.com/oauth/authorize/?client_id=cc8425bff673412aa4b13e01aa2b16d3&redirect_uri=http://instastatsapp.herokuapp.com/auth&response_type=code&scope=basic+public_content+follower_list+comments+relationships+likes">Click Here</a>
    </body>
 
 </html>
