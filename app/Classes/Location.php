@@ -22,7 +22,7 @@
 		public function locate()
 		{
 			$this->getLatlong();
-			$uri = "https://api.instagram.com/v1/locations/".$this->locationId."/media/recent?access_token=". $this->token."";
+			$uri = "https://api.instagram.com/v1/locations/".$this->locationId."/media/recent?count=1&access_token=". $this->token."";
 			$instagram_data = $this->curl_request($uri);
 			return $instagram_data;
 			

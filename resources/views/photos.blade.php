@@ -3,6 +3,7 @@
 
 
 @section('content')
+<center>Your Recent Photos:</center>
      <div class="container">
 
         <div class="row" id="appendHere">

@@ -41,7 +41,7 @@
 
 		public function recentPhotos()
 		{
-			$uri = "https://api.instagram.com/v1/users/self/media/recent/?count=2&access_token=". $this->token."";
+			$uri = "https://api.instagram.com/v1/users/self/media/recent/?count=1&access_token=". $this->token."";
 			$instagram_data = $this->curl_request($uri);
 			return $instagram_data;
 
@@ -61,6 +61,17 @@
 			$instagram_data = $this->curl_request($uri);                                                                                                      
 			return $instagram_data;
 		}
+
+
+		public function recentlyLiked()
+		{
+			//$uri = "https://api.instagram.com/v1/users/self/followed-by?access_token=". $this->token."";
+			
+			$instagram_data = $this->curl_request($uri);                                                                                                      
+			return $instagram_data;
+		}
+
+
 
 		public function getPhotosLocation()
 		{

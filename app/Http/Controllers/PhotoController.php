@@ -37,7 +37,7 @@ class PhotoController extends Controller
     'client_id' => 'cc8425bff673412aa4b13e01aa2b16d3', 
     'client_secret' => '7e937685e6374463baea6234d2f7f87f', 
     'grant_type' => 'authorization_code', 
-    'redirect_uri' => 'http://instastatsapp.herokuapp.com/auth', 
+    'redirect_uri' => 'http://127.0.0.1:8000/auth', 
     'code' => $string
      ];
     $ch = curl_init();

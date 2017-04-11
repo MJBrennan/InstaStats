@@ -4,7 +4,7 @@
 
 @section('content')
 
-<center><div><p>Your Information:</p></div></center>
+<center><div><p>Your Information:</p></div>
 
      <div class="container">
         <div class="list-group" id="dataHere">
@@ -25,6 +25,8 @@
  </ul>
  </div>
      </div>
+
+     </center>
 
 @endsection
 
